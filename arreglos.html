@@ -15,7 +15,7 @@
 
         <section class="formulario">
             <input type="number" id="edad" placeholder="Ingrese una edad">
-            <button onclick="agrefarEdad()">Agregar</button>
+            <button onclick="agregarEdad();">Agregar</button>
         </section>
 
         <section class="tablas">
@@ -29,26 +29,11 @@
                             <th>Mover</th>
                         </tr>
                     </thead>
-                    <tbody id="tablaIzquierda">
-                        <tr>
-                            <td>12</td>
-                            <td>
-                                <button class="btn-eliminar">Eliminar</button>
-                            </td>
-                            <td>
-                                <button class="btn-mover">➜</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>15</td>
-                            <td>
-                                <button class="btn-eliminar">Eliminar</button>
-                            </td>
-                            <td>
-                                <button class="btn-mover">➜</button>
-                            </td>
-                        </tr>
-                    </tbody>
+                    
+                    <tbody id="tablaIzquierda">  <!--Tabla izquierda-->
+                   
+                    </tbody>    <!--cierre Tabla izquierda-->
+
                 </table>
             </div>
 
@@ -62,31 +47,23 @@
                             <th>Eliminar</th>
                         </tr>
                     </thead>
-                    <tbody id="tablaDerecha">
-                        <tr>
-                            <td>
-                                <button class="btn-mover">⬅</button>
-                            </td>
-                            <td>20</td>
-                            <td>
-                                <button class="btn-eliminar">Eliminar</button>
-                            </td>
-                        </tr>
 
-                        <tr>
-                            <td>
-                                <button class="btn-mover">⬅</button>
-                            </td>
-                            <td>25</td>
-                            <td>
-                                <button class="btn-eliminar">Eliminar</button>
-                            </td>
-                        </tr>
+                    <tbody id="tablaDerecha">  <!--Tabla derecha-->
+                        
+                    </tbody>   <!--cierre Tabla derecha-->
 
-                    </tbody>
                 </table>
             </div>
         </section>
+        
+        <br>  <!--Salto de linea-->
+        <br>
+        
+        <div>
+            <button onclick="moverTodoHaciaIzquierda();" >Mover todo a ⬅ </button>
+            <button onclick="moverTodoHaciaDerecha();" >Mover todo a ➜ </button>
+        </div>
+
     </main>
 
     <script src="arreglos.js"></script>

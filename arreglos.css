@@ -17,7 +17,7 @@ body {
     background: white;
     padding: 30px;
     border-radius: 16px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 20px rgba(71, 63, 187, 0.1);
 }
 
 h1 {
@@ -45,14 +45,14 @@ button {
     padding: 10px 14px;
     border: none;
     border-radius: 8px;
-    background: #2563eb;
+    background: #bd3f5f;
     color: white;
     cursor: pointer;
     font-weight: bold;
 }
 
 button:hover {
-    background: #1e40af;
+    background: #7c5970;
 }
 
 .btn-eliminar {
@@ -90,11 +90,11 @@ h2 {
 table {
     width: 100%;
     border-collapse: collapse;
-    background: #ffffff;
+    background: #f8fcf9;
 }
 
 th {
-    background: #111827;
+    background: #243d38;
     color: white;
     padding: 12px;
 }
